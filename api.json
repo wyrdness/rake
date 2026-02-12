@@ -1,0 +1,253 @@
+{
+  "category": "INTERNET_FOLKLORE",
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/rake",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "rake",
+    "name": "The Rake",
+    "aliases": [],
+    "category": "INTERNET_FOLKLORE",
+    "subcategory": "Entity/Spirit",
+    "tags": [
+      "creepypasta",
+      "internet-folklore",
+      "entity",
+      "humanoid",
+      "nocturnal",
+      "modern-legend",
+      "fictional-origin"
+    ],
+    "status": "fictional-evolving",
+    "description": {
+      "summary": "A pale humanoid creature that originated as 2005 creepypasta fiction but evolved into claimed real experiences. Described as emaciated, crawling on all fours, with pale skin and hollow eyes.",
+      "full": "The Rake is an internet-born creepypasta character that first appeared in 2005-2006 on the /b/ board of 4chan as a collaborative fiction project. Described as a pale, emaciated humanoid creature that crawls on all fours, has hollow or sunken eyes, and appears in bedrooms at night, the Rake was explicitly created as fiction. However, like Slenderman, the character evolved beyond its fictional origins, with some people in the 2010s claiming genuine encounters. The Rake represents a fascinating example of modern digital folklore where fictional creation leads to belief reports, blurring lines between entertainment and perceived reality. It is related to sleep paralysis experiences and demonstrates how internet culture creates new mythological entities."
+    },
+    "etymology": {
+      "origin": "Created on 4chan's /b/ board as collaborative creepypasta",
+      "meaning": "'Rake' refers to its thin, rake-like appearance or possibly 'raking' scratches",
+      "first_use": "2005-2006"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "INTERNET_FOLKLORE",
+      "type": "Entity/Spirit",
+      "subtype": "Creepypasta",
+      "variant": "Fiction-to-belief phenomenon"
+    },
+    "related_phenomena": [
+      {
+        "id": "slenderman",
+        "name": "Slenderman",
+        "relationship": "similar",
+        "description": "Another fiction-to-belief creepypasta entity"
+      },
+      {
+        "id": "black-eyed-children",
+        "name": "Black-Eyed Children",
+        "relationship": "similar",
+        "description": "Internet folklore with similar trajectory"
+      },
+      {
+        "id": "sleep-paralysis",
+        "name": "Sleep Paralysis",
+        "relationship": "related",
+        "description": "May explain some 'Rake' experiences"
+      }
+    ]
+  },
+  "characteristics": {
+    "physical": {
+      "features": [
+        {
+          "feature": "Skin",
+          "description": "Pale, gray, or white; hairless",
+          "frequency": "always"
+        },
+        {
+          "feature": "Build",
+          "description": "Extremely emaciated, skeletal",
+          "frequency": "always"
+        },
+        {
+          "feature": "Eyes",
+          "description": "Hollow, sunken, or glowing",
+          "frequency": "common"
+        },
+        {
+          "feature": "Posture",
+          "description": "Crawls on all fours like an animal",
+          "frequency": "common"
+        },
+        {
+          "feature": "Hands",
+          "description": "Long fingers, claw-like",
+          "frequency": "common"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "ability": "Bedroom appearance",
+        "description": "Appears in victims' bedrooms at night",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Psychological trauma",
+        "description": "Causes fear and mental distress",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Scratching sounds",
+        "description": "Associated with scratching or scraping noises",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "hostile",
+      "patterns": [
+        "Appears at night",
+        "Found in bedrooms",
+        "Causes fear",
+        "Associated with sleep paralysis"
+      ]
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Internet-born, claimed experiences primarily in North America and English-speaking countries",
+      "continents": [
+        "North America",
+        "Europe"
+      ],
+      "occurrence": "Rare, primarily online reports"
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Created on 4chan in 2005-2006 as collaborative fiction",
+      "earliest_accounts": "Original creepypasta posts 2005-2006",
+      "evolution": "Fiction (2005-2006) \u2192 viral spread (2008-2010) \u2192 belief claims (2010s)"
+    },
+    "timeline": [
+      {
+        "date": "2005-2006",
+        "event": "Original creation",
+        "significance": "Created on 4chan as fiction project",
+        "source": "4chan archives"
+      },
+      {
+        "date": "2008-2010",
+        "event": "Viral spread",
+        "significance": "Spread across internet horror communities",
+        "source": "Online forums"
+      },
+      {
+        "date": "2010s",
+        "event": "Belief claims emerge",
+        "significance": "Some people begin claiming real encounters",
+        "source": "Online reports"
+      },
+      {
+        "date": "2012-present",
+        "event": "Modern folklore status",
+        "significance": "Studied as example of digital folklore creation",
+        "source": "Academic analysis"
+      }
+    ]
+  },
+  "theories": {
+    "factual": [
+      {
+        "name": "Entirely Fictional",
+        "description": "Created as fiction, all 'sightings' are either fictional reports, sleep paralysis, or psychological",
+        "evidence_cited": [
+          "Known fictional origin",
+          "No physical evidence",
+          "Pattern matches sleep paralysis"
+        ],
+        "status": "Most likely"
+      }
+    ],
+    "psychological": [
+      {
+        "name": "Sleep Paralysis",
+        "description": "Experiences attributed to Rake are sleep paralysis episodes influenced by Rake imagery",
+        "evidence_cited": [
+          "Bedroom setting",
+          "Night occurrences",
+          "Paralysis and fear",
+          "Hallucinations"
+        ]
+      },
+      {
+        "name": "Mass Suggestion",
+        "description": "Exposure to Rake stories causes suggestible individuals to interpret experiences as Rake encounters",
+        "evidence_cited": [
+          "Internet exposure",
+          "Pattern of belief after exposure"
+        ]
+      }
+    ]
+  },
+  "cultural": {
+    "folklore": {
+      "significance": "Example of modern digital folklore creation",
+      "evolution": "Shows how internet culture creates new mythological entities"
+    },
+    "popular_culture": {
+      "internet": [
+        "Creepypasta wikis",
+        "Horror story websites",
+        "YouTube horror content",
+        "Gaming references"
+      ],
+      "significance": "Part of broader creepypasta phenomenon alongside Slenderman, Jeff the Killer, etc."
+    }
+  },
+  "research": {
+    "academic_interest": "Studied by folklorists and digital culture researchers as example of internet folklore evolution",
+    "ongoing_studies": "Analysis of fiction-to-belief phenomenon in digital age"
+  },
+  "sources": [
+    {
+      "id": "chess-2012",
+      "type": "book",
+      "title": "Folklore, Horror Stories, and the Slender Man",
+      "authors": [
+        "Shira Chess"
+      ],
+      "publication": "Palgrave Macmillan",
+      "date": "2016"
+    },
+    {
+      "id": "blank-2015",
+      "type": "article",
+      "title": "Faux Your Entertainment",
+      "authors": [
+        "Trevor Blank"
+      ],
+      "publication": "Journal of American Folklore",
+      "date": "2015"
+    }
+  ]
+}
