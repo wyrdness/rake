@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/rake",
     "maintainers": [
       {
@@ -16,72 +16,115 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "rake",
     "name": "The Rake",
     "aliases": [],
-    "category": "|_INTERNET_FOLKLORE_|",
-    "subcategory": "Unknown",
+    "category": "URBAN_LEGEND",
+    "subcategory": "Creepypasta / internet-born fictional entity",
     "tags": [
-      "folklore",
-      "mythology"
+      "creepypasta",
+      "internet-folklore",
+      "humanoid",
+      "horror",
+      "fictional",
+      "4chan",
+      "nocturnal",
+      "pale-humanoid"
     ],
-    "status": "documented",
+    "status": "active",
     "description": {
-      "summary": "The Rake is an internet-born creepypasta character that first appeared in 2005-2006 on the /b/ board of 4chan as a collaborative fiction project.",
-      "full": "The Rake is an internet-born creepypasta character that first appeared in 2005-2006 on the /b/ board of 4chan as a collaborative fiction project. Described as a pale, emaciated humanoid creature that crawls on all fours, has hollow eyes, and appears in bedrooms at night, **the Rake was explicitly created as fiction**. However, like Slenderman, the character evolved beyond its fictional origins, with some people in the 2010s claiming genuine encounters. The Rake represents a fascinating example of modern digital folklore where **fictional creation leads to belief reports**, blurring lines between entertainment and perceived reality."
+      "summary": "The Rake is an internet-born fictional entity originating from 4chan's /b/ board around 2005–2006, described as a pale, emaciated humanoid that crouches at the foot of beds or crawls on all fours. Though explicitly created as collaborative fiction, the character has since generated claimed real-world encounter reports.",
+      "full": "The Rake is a creepypasta character that emerged from 4chan's /b/ board around 2005–2006 as part of a collaborative fictional project aimed at creating a new internet horror entity. It is described as a pale, hairless, emaciated humanoid creature — resembling something between a naked human and a large hairless dog — that crawls on all fours, appears in bedrooms at night crouching at the foot of the bed or standing over sleeping victims, and possesses hollow or blank eyes. The original creepypasta text established a fictional framing device of found documents and journal entries, giving the character a sense of historicity. Like Slender Man (which originated in 2009 on Something Awful), the Rake represents the phenomenon of internet-born fictional entities that acquire reported real-world sightings as the legend spreads. In the 2010s, claimed 'real' encounters with the Rake began circulating online, blurring the documented fictional origin with emerging pseudo-belief. The Rake is distinct from the Polybius legend in having a clearly identifiable fictional creation context, and from older folklore traditions in being purely a product of early internet culture."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "4chan's /b/ board, approximately 2005–2006. The name 'The Rake' refers to the creature's raking or clawing behavior and emaciated, raked-over appearance.",
+      "meaning": "Refers to the entity's clawing/scratching behavior and gaunt, rake-like physique",
+      "first_use": "Approximately 2005–2006 (4chan /b/ board)"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_INTERNET_FOLKLORE_|",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "URBAN_LEGEND",
+      "type": "Internet folklore / creepypasta",
+      "subtype": "Bedroom intruder humanoid",
+      "variant": "Internet-born fictional entity"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "slenderman", "name": "Slender Man", "relationship": "similar", "description": "The most famous internet-born fictional entity that also acquired pseudo-belief reports; Slender Man originated in 2009 on Something Awful" },
+      { "id": "polybius", "name": "Polybius", "relationship": "related", "description": "Another internet-era urban legend where fiction blurs into claimed real experiences" },
+      { "id": "shadow-people", "name": "Shadow People", "relationship": "similar", "description": "Older reported bedroom intruder entities that share some phenomenological features with Rake reports" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["pale white", "hairless"],
+      "features": [
+        { "feature": "Pale, hairless body", "description": "Completely hairless pale skin, giving a naked, exposed appearance", "frequency": "always" },
+        { "feature": "Emaciated build", "description": "Extremely thin, skeletal build described as resembling something between a naked man and a large hairless dog", "frequency": "always" },
+        { "feature": "Quadrupedal movement", "description": "Primarily moves on all fours, though described as able to take a crouching bipedal posture", "frequency": "always" },
+        { "feature": "Hollow or blank eyes", "description": "Eyes are described as hollow, blank, or deeply sunken", "frequency": "common" },
+        { "feature": "Long fingers or claws", "description": "Hands end in long, claw-like fingers, consistent with the 'raking' behavior implied by the name", "frequency": "common" }
+      ],
+      "morphology": "A pale, hairless, emaciated humanoid that moves primarily on all fours. Proportions are described as wrong for a normal human — too long, too thin, with joints at unnatural angles."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Silent movement", "description": "Described as moving silently through homes and into bedrooms without waking occupants", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Crouching vigil over sleeping victims", "description": "Reportedly crouches at the foot of the bed or over sleeping individuals, watching them", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Inducing fear and psychological effects", "description": "Witnesses in fictional and reported accounts describe overwhelming fear, paralysis, and lasting psychological trauma", "frequency": "common", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["bedrooms", "wooded areas (in outdoor encounter accounts)", "rural areas"],
+      "patterns": [
+        "Appears at night in bedrooms of sleeping victims",
+        "Crouches at the foot of the bed or over victims",
+        "Stares at or watches victims without always attacking",
+        "Retreats when noticed in many accounts"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
+      "description": "As an internet-born legend, the Rake has no geographic origin. Claimed encounter reports (post-fictional-origin) come primarily from English-speaking internet communities.",
+      "continents": ["North America", "Europe", "Australia"],
+      "countries": ["United States", "United Kingdom", "Canada", "Australia"],
       "regions": []
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "2006-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "4chan /b/ board, approximately 2005–2006"
+      },
+      "peak_activity_periods": [
+        { "period": "2005–2010", "description": "Creation period and early spread through creepypasta communities" },
+        { "period": "2010–present", "description": "Period when claimed 'real' encounter reports began circulating alongside the established fictional origin" }
+      ],
+      "seasonal_patterns": "No seasonal pattern; spread follows internet discussion cycles and horror media trends."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Rake was created as a deliberately new piece of internet horror fiction. It draws on older folkloric elements — the bedroom intruder, the watching figure, the pale humanoid — but its specific form was created through collaborative fiction on 4chan's /b/ board around 2005–2006.",
+      "earliest_accounts": "4chan /b/ board, approximately 2005–2006. The original fictional framing used fake journal entries and found-document conventions.",
+      "folklore_connections": "The Rake connects to older traditions of bedroom intruder spirits (hags, night-visitors, shadow people, sleep paralysis demons) and to the broader creepypasta tradition established by Slender Man (2009, Something Awful)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "2006-01-01", "event": "The Rake first appears on 4chan's /b/ board as a collaborative fictional horror project", "significance": "Creation of the entity; establishes its documented fictional origin", "source": "4chan /b/ board (2005–2006)" },
+      { "date": "2010-01-01", "event": "The Rake spreads to creepypasta wikis and horror communities, gaining a wider internet audience", "significance": "Transition from 4chan origin to broader internet legend status", "source": "Creepypasta Wiki and related communities" }
+    ],
+    "modern_era": "The Rake continues to circulate as a creepypasta entity, with claimed encounter reports appearing alongside the clearly documented fictional origin. Like Slender Man, it represents the blurring of fiction and pseudo-belief in digital folklore. Unlike Slender Man, the Rake has not yet been linked to real-world incidents of violence."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +135,69 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Documented fictional creation",
+        "description": "The Rake was explicitly created as collaborative fiction on 4chan approximately 2005–2006. All subsequent 'encounter reports' post-date this creation and are attributable to the spread of the legend rather than genuine encounters with an independent entity.",
+        "proponents": ["Internet folklorists", "Creepypasta researchers"],
+        "evidence_cited": ["Documented 4chan /b/ origin thread (approximately 2005–2006)", "Structural identity of 'encounter reports' with the original fictional template", "No encounter reports predate the legend's online creation"]
+      },
+      {
+        "name": "Sleep paralysis misattribution",
+        "description": "Claimed 'real' Rake encounters are best explained as sleep paralysis experiences — the hypnagogic hallucination of a figure at the bedside or foot of the bed is well-documented — being interpreted through the template of the Rake legend.",
+        "proponents": ["Sleep researchers", "Skeptical folklorists"],
+        "evidence_cited": ["Sleep paralysis hallucinations of bedroom intruder figures are well-documented neurologically", "The Rake's described behavior (crouching at the foot of the bed, watching) matches common sleep paralysis visual hallucinations"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Creepypasta tradition of internet-born horror entities",
+        "Found-document horror narrative convention (fictional journal entries, fake case files)"
+      ],
+      "stories": [
+        "The original 4chan collaborative fiction thread establishing the Rake (approximately 2005–2006)",
+        "The spread through Creepypasta Wiki and associated communities"
+      ],
+      "beliefs": "A minority of internet users treat the Rake as a real entity despite its documented fictional origin. This represents a broader pattern in digital folklore where fictional creation blurs into pseudo-belief through repeated uncritical retelling."
     },
     "popular_culture": {
       "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "film_tv": [
+        "The Rake has been featured in multiple independent horror short films and YouTube productions"
+      ],
+      "games": [
+        "The Rake — Roblox game inspired by the legend",
+        "Multiple indie horror games use the Rake as an antagonist"
+      ],
+      "other": [
+        "The Rake is a recurring subject in horror podcast episodes and YouTube documentary channels covering creepypasta history"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The Rake is studied by digital folklorists and internet culture researchers as an example of emergent online legend creation and the mechanisms by which fictional entities acquire pseudo-belief reports."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "creepypasta-wiki-rake", "type": "website", "title": "The Rake (creepypasta)", "url": "https://creepypasta.fandom.com/wiki/The_Rake", "accessed": "2026-05-08" }
+  ]
 }
